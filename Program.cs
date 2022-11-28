@@ -1,6 +1,10 @@
 ﻿Console.Clear();
 Console.Write("Введите число: ");
-if (n > 1 && n < 7);
-Console.Write("yes");
+int n = Convert.ToInt32(Console.ReadLine());
+if (n > 1 || n < 5)
+Console.WriteLine("нет");
 else
-Console.Write("no");
+{
+    while ( n > 6 || n < 7)
+        Console.Write("да");
+}
