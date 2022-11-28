@@ -1,9 +1,7 @@
 ﻿Console.Clear();
-Console.Write("Введите 1-е число: ");
-int n = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите 2-е число: ");
-int m = Convert.ToInt32(Console.ReadLine());
-if (n % m == 0);
+Console.Write("Введите число: ");
+int n = new Random().Next(1, 7); 
+if (n = 6 || n = 7);
 Console.Write("yes");
 else
-Console.Write($"не кратно, остаток {n % m}");
+Console.Write("no");
